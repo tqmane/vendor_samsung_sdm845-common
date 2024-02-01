@@ -1,0 +1,15 @@
+<SamsungMobileLanguage>
+   <Country>Japan</Country>
+   <CountryISO>JP</CountryISO>
+   <SalesCode>DCM</SalesCode>
+   <LanguageSet>
+          <Display>
+           ja_JP;en_US;ko_KR;pt_BR;vi_VN;zh_CN;
+          </Display>
+          <Input>
+                <EnableList>
+                 ja;en_US;
+                </EnableList>
+          </Input>
+   </LanguageSet>
+</SamsungMobileLanguage>

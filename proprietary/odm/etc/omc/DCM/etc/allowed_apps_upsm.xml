@@ -1,0 +1,79 @@
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.emergencylauncher" >
+    <home>
+        <!-- Permission[wxyz] -->
+        <!--
+             w : Always enabled.
+             x : Use AlarmManager.
+             y : Use mobile data when screen off.
+             z : Use default App permission, Don't kill if turn off screen.
+        -->
+        <!-- SBrowser -->
+        <appshortcut
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity"
+            launcher:packageName="com.sec.android.app.sbrowser"
+            launcher:permission="1001" />
+
+        <!-- ChatOn -->
+        <appshortcut
+            launcher:className="com.sec.chaton.HomeActivity"
+            launcher:packageName="com.sec.chaton"
+            launcher:permission="0000" />
+        <!-- Google+ -->
+        <appshortcut
+            launcher:className="com.google.android.apps.plus.phone.HomeActivity"
+            launcher:packageName="com.google.android.apps.plus"
+            launcher:permission="0000" />
+        <!-- Facebook -->
+        <appshortcut
+            launcher:className="com.facebook.katana.LoginActivity"
+            launcher:packageName="com.facebook.katana"
+            launcher:permission="0000" />
+        <!-- Twitter -->
+        <appshortcut
+            launcher:className="com.twitter.android.StartActivity"
+            launcher:packageName="com.twitter.android"
+            launcher:permission="0000" />
+        <!-- KakaoTalk -->
+        <appshortcut
+            launcher:className="com.kakao.talk.activity.SplashActivity"
+            launcher:packageName="com.kakao.talk"
+            launcher:permission="0000" />
+        <!-- Line - naver -->
+        <appshortcut
+            launcher:className="jp.naver.line.android.activity.SplashActivity"
+            launcher:packageName="jp.naver.line.android"
+            launcher:permission="0000" />
+        <!-- Whatsapp -->
+        <appshortcut
+            launcher:className="com.whatsapp.Main"
+            launcher:packageName="com.whatsapp"
+            launcher:permission="0000" />
+        <!-- Calculator -->
+        <appshortcut
+            launcher:className="com.sec.android.app.popupcalculator.Calculator"
+            launcher:packageName="com.sec.android.app.popupcalculator"
+            launcher:permission="0001" />
+        <!-- Clock -->
+        <appshortcut
+            launcher:className="com.sec.android.app.clockpackage.ClockPackage"
+            launcher:packageName="com.sec.android.app.clockpackage"
+            launcher:permission="0101" />
+        <!-- Memo -->
+        <appshortcut
+            launcher:className="com.samsung.android.app.memo.Main"
+            launcher:packageName="com.samsung.android.app.memo"
+            launcher:permission="0001" />
+
+        <!-- Carrier Disaster -->
+        <appshortcut
+            launcher:className="jp.co.nttdocomo.saigaiban.activity.InitEulaViewerActivity"
+            launcher:packageName="jp.co.nttdocomo.saigaiban"
+            launcher:permission="0000" />
+        <!-- FamilyBrowser -->
+        <appshortcut
+            launcher:className="jp.netstar.familybrowser.MainActivity"
+            launcher:packageName="jp.netstar.familybrowser"
+            launcher:permission="0000" />
+    </home>
+
+</favorites>

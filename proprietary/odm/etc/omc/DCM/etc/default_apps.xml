@@ -1,0 +1,32 @@
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.emergencylauncher" >
+
+    <home>
+        <appshortcut
+            launcher:className="com.samsung.android.dialer.DialtactsActivity"
+            launcher:iconPosition="0"
+            launcher:packageName="com.samsung.android.dialer" />
+        <appshortcut
+            launcher:className="com.android.mms.ui.ConversationComposer"
+            launcher:iconPosition="1"
+            launcher:packageName="com.android.mms" />
+        <appshortcut
+            launcher:className="jp.co.nttdocomo.carriermail.activity.EulaViewer"
+            launcher:iconPosition="2"
+            launcher:packageName="jp.co.nttdocomo.carriermail" />
+        <appshortcut
+            launcher:className="jp.co.nttdocomo.saigaiban.activity.InitEulaViewerActivity"
+            launcher:iconPosition="3"
+            launcher:packageName="jp.co.nttdocomo.saigaiban" />
+        <appshortcut
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity"
+            launcher:iconPosition="4"
+            launcher:fixed="0"
+            launcher:packageName="com.sec.android.app.sbrowser" />
+        <appshortcut
+            launcher:className="jp.co.fsi.fs1seg.app.Main"
+            launcher:iconPosition="5"
+            launcher:fixed="0"
+            launcher:packageName="jp.co.fsi.fs1seg" />
+    </home>
+
+</favorites>

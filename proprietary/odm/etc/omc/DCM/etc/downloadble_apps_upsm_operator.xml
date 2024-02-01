@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<apps>
+
+    <csc name="dcm" >
+        <item className="com.nttdocomo.medicine.notebook.ahd"/>
+        <item className="com.nttdocomo.android.dmapnavi.disaster"/>
+        <item className="jp.netstar.familybrowser"/>
+        <item className="com.nttdocomo.mierudenwa"/>
+        <item className="com.nttdocomo.android.msg"/>
+    </csc>
+
+</apps>

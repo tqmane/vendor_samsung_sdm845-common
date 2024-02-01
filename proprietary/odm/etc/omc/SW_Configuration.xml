@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SC02K</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>DCM</MultiCode>
+    <CustomerDataSet>
+        <CSCName>SC02KDCM</CSCName>
+        <CSCVersion>1CVK1</CSCVersion>
+        <NbCustomer>1</NbCustomer>
+        <CustomerData src="/Customer/DCM/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>DCM</CustomerCode>
+            <Version>SAOMC_SC-02K_DCM_DCM_QQ_0008</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>
